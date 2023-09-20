@@ -57,6 +57,3 @@ foreach (Product p in productList)
 
 Console.ReadLine();
 
-// v1.1 changes
-// this includes patchnotes
-// forgot about this asdfgsdfggf
