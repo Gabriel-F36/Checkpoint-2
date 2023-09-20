@@ -1,7 +1,9 @@
 ﻿
+using Checkpoint_2_Nivå1;
 using System.Diagnostics;
 using System.Linq.Expressions;
 
+Product product = new Product();
 List<Product> productList = new List<Product>();
 string cat;
 string prod;
