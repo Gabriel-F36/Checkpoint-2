@@ -1,8 +1,13 @@
 ﻿
+
+using Checkpoint_2_Nivå1;
 using System.Diagnostics;
 using System.Linq.Expressions;
 
+//Product product = new Product();
 List<Product> productList = new List<Product>();
+
+
 string cat;
 string prod;
 string pri;
@@ -52,7 +57,21 @@ foreach (Product p in productList)
 
 Console.ReadLine();
 
+class Product
+{
+    public Product()
+    {
+    }
 
+    public Product(string category, string productName, int price)
+    {
+        Category = category;
+        ProductName = productName;
+        Price = price;
+    }
 
+    public string Category { get; set; }
+    public string ProductName { get; set; }
+    public int Price { get; set; }
 
-
+}
