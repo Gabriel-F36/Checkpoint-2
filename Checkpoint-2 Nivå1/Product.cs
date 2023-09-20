@@ -24,3 +24,4 @@ namespace Checkpoint_2_Nivå1
         public int Price { get; set; }
     }
 }
+// version 1.1
