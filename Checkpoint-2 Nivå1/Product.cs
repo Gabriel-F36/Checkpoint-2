@@ -24,4 +24,4 @@ namespace Checkpoint_2_Nivå1
         public int Price { get; set; }
     }
 }
-// just checking with github
+// just checking with github again
