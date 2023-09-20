@@ -24,5 +24,3 @@ namespace Checkpoint_2_Nivå1
         public int Price { get; set; }
     }
 }
-// hejsan jag hoppas detta funkar
-// also adding information here
