@@ -11,7 +11,7 @@ namespace Checkpoint_2_Nivå2
         public void Instructions()
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("Product requires Title, product name and price | Enter: 'q' to quit");
+            Console.WriteLine("Add Title, Product name and Price | Enter: 'q' to quit");
             Console.ResetColor();
         }
         public void successfulAdd()
@@ -30,7 +30,13 @@ namespace Checkpoint_2_Nivå2
         public void LateAddProduct() 
         {
             Console.ForegroundColor = ConsoleColor.DarkCyan;
-            Console.WriteLine("To enter a new product, enter 'P' | To search for a product, enter 'S'");
+            Console.WriteLine("To enter a new product, enter 'P' | To search for a product, enter 'S' | To quit, enter 'Q'");
+            Console.ResetColor();
+        }
+        public void NullOrEmpty() 
+        {
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("Value can't be null or empty");
             Console.ResetColor();
         }
     }
